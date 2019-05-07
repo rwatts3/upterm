@@ -19,6 +19,8 @@ app.on("ready", () => {
         x: bounds.x,
         y: bounds.y,
         show: false,
+        frame: false,
+        transparent: true
     };
     const browserWindow = new BrowserWindow(options);
 
